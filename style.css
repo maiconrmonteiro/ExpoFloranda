@@ -1,7 +1,7 @@
 * {
     margin: 0%;
+    padding: 0%;
 }
-
 h1 {
     background-color: #D9BA23;
     font-family: myriad-pro, sans-serif;
@@ -37,6 +37,7 @@ main {
 
 .informa:hover {
     background-color: #097134;
+    text-decoration: underline;
     color: aliceblue;
     box-shadow: 4px 4px 14px 0px rgba(0,0,0,0.94);
 }
@@ -64,6 +65,8 @@ button:hover {
     display: block;
     width: 50%;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
 }
 
 .bts {
@@ -78,6 +81,7 @@ footer {
     height: 100%;
     padding-top: 20px;
     background-color: #d3d3d3;
+    padding-bottom: 15px;
 }
 
 footer > p {
