@@ -1,7 +1,22 @@
+* {
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+}
+
 main {
     background-image: url('imagens/fundoSite.png');
 }
 
+button {
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
 .imagemPrincipal {
     display: block;
     width: 50%;
@@ -12,5 +27,17 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
+  
+}
+
+footer { 
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #d3d3d3;
+}
+
+footer > p {
+    margin: 0%;
+
 }
