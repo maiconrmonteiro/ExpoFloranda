@@ -2,21 +2,61 @@
     margin: 0%;
 }
 
+h1 {
+    background-color: #D9BA23;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #097134;
+}
+
+
 header {
+    position: fixed;
     text-align: center;
+    width: 100%;
 }
 
 main {
     background-image: url('imagens/fundoSite.png');
 }
 
+.informa {
+    padding: 20px;
+    text-align: center;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #097134;
+}
+
+.linkInforma {
+    text-decoration: none;
+}
+
+.informa:hover {
+    background-color: #097134;
+    color: aliceblue;
+}
+
+
 button {
-    background-color: aqua;
+    margin-bottom: 20px;
+    font-family: myriad-pro, sans-serif;
+    background-color: #D96523;
     border: none;
     border-radius: 10px;
     width: 120px;
     height: 40px;
 }
+
+button:hover {
+    background-color: #D9BA23;
+    width: 125px;
+    height: 45px;
+}
+
+
 .imagemPrincipal {
     display: block;
     width: 50%;
