@@ -15,6 +15,7 @@ header {
     position: fixed;
     text-align: center;
     width: 100%;
+    box-shadow: 4px 4px 14px 0px rgba(0,0,0,0.94);
 }
 
 main {
@@ -37,6 +38,7 @@ main {
 .informa:hover {
     background-color: #097134;
     color: aliceblue;
+    box-shadow: 4px 4px 14px 0px rgba(0,0,0,0.94);
 }
 
 
@@ -48,6 +50,7 @@ button {
     border-radius: 10px;
     width: 120px;
     height: 40px;
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.90);
 }
 
 button:hover {
