@@ -40,7 +40,6 @@ main {
     text-decoration: underline;
     color: aliceblue;
     box-shadow: 4px 4px 14px 0px rgba(0,0,0,0.94);
-    font-size: 18px;
 }
 
 .rede-sociais {
@@ -56,7 +55,7 @@ main {
 }
 
 .logo-instagram:hover {
-    width: 63px;
+    transform: scale(1.13);
 
 }
 
